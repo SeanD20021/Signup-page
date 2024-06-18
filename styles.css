@@ -1,0 +1,49 @@
+@font-face {
+    font-family: odin-font;
+    src: url(./Norse-Bold.otf);
+}
+
+.left {
+    width: 350px;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    background-image: url("leaf.avif");
+    background-size: cover;
+    opacity: 1;
+}
+
+.right {
+    width: 240px;
+    flex-grow: 3;
+    background-color:antiquewhite;
+}
+
+.page {
+    display:flex;
+}
+
+.title {
+    display:flex;
+    width: 350px;
+    background-color: rgba(0 0 0 /50%);
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex-shrink: 3;
+    width: 95px;
+    height: 126px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.odin {
+    flex-shrink: 1;
+    color:white;
+    font-family: odin-font;
+    font-size: 100px
+    
+}
